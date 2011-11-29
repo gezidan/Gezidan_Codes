@@ -7,6 +7,8 @@
  */
 
 #ifndef STREAM_H_
+#define STREAM_H_
+
 namespace System
 {
 	class Stream
@@ -36,7 +38,6 @@ namespace System
 		static const Stream &GetNullStream()=0;
 	};
 }
-#define STREAM_H_
 
 
 
